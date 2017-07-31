@@ -1,7 +1,3 @@
----
-typora-copy-images-to: ..\pic
----
-
 # win7-vagrant-centos7.2-docker-nodejs环境安装
 
 
@@ -26,7 +22,7 @@ typora-copy-images-to: ..\pic
 
 ## vagrant box安装
 
-```shell
+```powershell
 # 执行处理化，如果没有进行会自动下，因为被墙，我们只用这个命令得到box下载地址；
 vagrant box init centos
 ### 得到地址，就用其他方式下载；
@@ -40,12 +36,11 @@ vagrant box init box-name
 vagrant up
 ### 使用ssh客户端登录默认2222->22
 
-
 ```
 
 ## docker安装
 
-```shell
+```powershell
 ###不执行这两条命令，每次都要sudo
 # Add the docker group if it doesn't already exist.
 $ sudo groupadd docker

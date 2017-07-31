@@ -1,4 +1,3 @@
-- 基础
- - [快速开始](study/win7-vagrant-centos7.2-docker-nodejs.md)
-- 测试
- - [百度搜索](http://baidu.com)
+- [首页](/)
+- [技术](/)
+ - [win7使用docker部署nodejs服务](tech/win7-vagrant-centos7.2-docker-nodejs.md)
