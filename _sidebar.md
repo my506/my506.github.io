@@ -1,2 +1,0 @@
-- [首页](study/)
-- [指南](study/win7-vagrant-centos7.2-docker-nodejs)
