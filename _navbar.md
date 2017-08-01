@@ -1,4 +1,3 @@
-- [首页]
-- [技术]
- - [win7使用docker部署nodejs服务](tech/win7-vagrant-centos7.2-docker-nodejs.md)
+- [首页](/)
+- 技术
  - [win7使用docker部署nodejs服务](tech/win7-vagrant-centos7.2-docker-nodejs.md)
