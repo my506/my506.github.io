@@ -12,19 +12,20 @@
 
 1. [http://www.vagrantup.com/](http://www.vagrantup.com/)下载软件
 2. 点击下一步，一直安装；
-3. 设置环境变量:VAGRANT_HOME，指向非系统盘；太吃系统盘了。
+3. 设置环境变量:VAGRANT_HOME，指向非系统盘，用于存放add的box；太吃系统盘了。
+4. 注意 win7中vagrant 1.9.5（1.9.6就不行）才能配合 virtual box 5.1.X,http://blog.csdn.net/cow66/article/details/77993908
 
 ##  centos7 box下载
 
 1. http://www.vagrantbox.es/下载，
-2. 如果被强，可以用http://120.52.52.72/代理
-3. 如果找不到具体下载地址，可以执行vagrant box init <name> ，在日志中可以看到下载地址；
+2. 如果被强，可以用http://120.52.52.72/your-url 缓存代理 （已失效）
+3. 如果找不到具体下载地址，可以执行vagrant add box <name> ，在日志中可以看到下载地址；
 
 ## vagrant box安装
 
 ```powershell
 # 执行处理化，如果没有进行会自动下，因为被墙，我们只用这个命令得到box下载地址；
-vagrant box init centos
+vagrant add box centos
 ### 得到地址，就用其他方式下载；
 # 加载box
 vagrant box add box-name  box-file.box
