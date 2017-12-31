@@ -36,6 +36,9 @@ vagrant box init box-name
 # 启动虚机(在VagrantFile所在目录)
 vagrant up
 ### 使用ssh客户端登录默认2222->22
+# 如果报 “Rsync” could not be found on your PATH错误，把下面第一条修改为第二条
+# config.vm.synced_folder "../data", "/vagrant_data"
+# config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
 
 ```
 
